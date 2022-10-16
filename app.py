@@ -14,7 +14,7 @@ def studentNumber():
 def index():
     #Get the formula1-gossip entity from the dialogflow fullfilment request.
     body = request.json
-    drink_name = body['queryResult']['parameters']['drink-name']*******
+    drink_name = body['queryResult']['parameters']['drink-name']
 
     #Connect to the API anf get the JSON file.
     api_url = 'http://www.thecocktaildb.com/api/json/v1/1/search.php?s='+drink_name+''
