@@ -26,5 +26,5 @@ def index():
     
 
     #Build the Dialogflow reply.
-    reply = '{"fulfillmentMessages": [ {"text": {"text": {"The most famous drink with '+drink_name+' is ' + drink + '"} } } ]}'
+    reply = '{"fulfillmentMessages": [ {"text": {"text": ["The most famous drink with '+drink_name+' is ' + drink + '"] } } ]}'
     return reply
